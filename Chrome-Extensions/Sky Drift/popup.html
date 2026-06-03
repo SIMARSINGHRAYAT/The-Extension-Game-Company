@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky Drift</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar" aria-label="Game status">
+        <div>
+          <h1>Sky Drift</h1>
+          <p>Tap, click, Space, or Up Arrow</p>
+        </div>
+        <div class="best-score">
+          <span>Best</span>
+          <strong id="bestScore">0</strong>
+        </div>
+      </header>
+
+      <section class="game-frame" id="gameFrame" tabindex="0" aria-label="Sky Drift game. Press Space to flap.">
+        <canvas id="gameCanvas" width="380" height="500" aria-hidden="true"></canvas>
+        <div class="score" id="score">0</div>
+
+        <div class="overlay" id="overlay">
+          <h2 id="overlayTitle">Ready?</h2>
+          <p id="overlayMessage">Fly through the pipe canyon without touching anything.</p>
+          <button id="overlayButton" type="button">Start</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

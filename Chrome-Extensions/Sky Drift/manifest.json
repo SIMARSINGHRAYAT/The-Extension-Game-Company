@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Sky Drift",
+  "description": "An original Flappy-style arcade game that runs from the Chrome toolbar.",
+  "version": "1.0.0",
+  "offline_enabled": true,
+  "action": {
+    "default_title": "Sky Drift",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon128.png",
+      "32": "icon128.png",
+      "48": "icon128.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon128.png",
+    "32": "icon128.png",
+    "48": "icon128.png",
+    "128": "icon128.png"
+  }
+}
