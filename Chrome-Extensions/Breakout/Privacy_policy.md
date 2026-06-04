@@ -1,73 +1,62 @@
-# Privacy Policy for Neon Breakout
+# Privacy Policy
 
 **Effective Date:** June 2026
 
 ## Introduction
 
-Neon Breakout is a browser-based arcade game available as a Chrome Extension. This Privacy Policy explains how the extension handles user information and data.
+This Privacy Policy describes how this extension handles information when users install and use it.
 
-By using Neon Breakout, you agree to the practices described in this Privacy Policy.
+The extension is designed to provide its intended functionality directly within the user's browser environment.
 
-## Information We Collect
+## Information Collection
 
-Neon Breakout does **not collect, store, transmit, sell, or share any personal information** from users.
+This extension does not collect, store, transmit, sell, or share personal information.
 
 The extension does not collect:
 
-- Names
-- Email addresses
-- Phone numbers
-- Physical addresses
-- Identification numbers
-- Payment information
-- Authentication credentials
-- Personal communications
-- Location information
-- Browsing history
-- Website content
-- User activity data
+* Personally identifiable information
+* Financial or payment information
+* Authentication credentials
+* Personal communications
+* Location information
+* Browsing history
+* Website content
+* User activity data
 
-## Local Storage
+## Local Data Storage
 
-To improve gameplay, Neon Breakout may store certain game-related information locally on your device, such as:
+The extension may store certain settings, preferences, scores, progress, or other functionality-related data locally on the user's device to enhance the user experience.
 
-- High scores
-- Game settings
-- Progress data
-- User preferences
-
-This information remains on your device and is never transmitted to the developer or any third party.
+Any locally stored data remains on the user's device and is not transmitted to the developer or third parties.
 
 ## Third-Party Services
 
-Neon Breakout does not use:
-
-- Analytics services
-- Advertising networks
-- Tracking technologies
-- Remote code execution
-- Third-party data collection services
+This extension does not use third-party analytics services, advertising networks, tracking technologies, or external data collection services.
 
 ## Data Sharing
 
-Neon Breakout does not sell, rent, share, transfer, or disclose any user data to third parties.
+No user data is sold, rented, transferred, disclosed, or shared with third parties.
 
-## Children's Privacy
+## Remote Code
 
-Neon Breakout does not knowingly collect personal information from children or any users.
+The extension does not execute remote code. All executable code required for the extension's functionality is packaged with the extension.
 
 ## Security
 
-Because Neon Breakout does not collect or transmit personal data, no personal information is stored on developer-controlled servers.
+The extension is designed to operate locally within the user's browser. Since personal information is not collected, no personal user data is stored on developer-controlled servers.
+
+## Children's Privacy
+
+This extension does not knowingly collect personal information from children or any other users.
 
 ## Changes to This Privacy Policy
 
-This Privacy Policy may be updated periodically to reflect changes in the extension or legal requirements. Any updates will be posted on this page with a revised effective date.
+This Privacy Policy may be updated from time to time. Any changes will be reflected on this page with an updated effective date.
 
-## Contact Information
+## Contact
 
-If you have any questions regarding this Privacy Policy, please contact the developer through the support page associated with the extension listing.
+For questions regarding this Privacy Policy, users may contact the developer through the support channel associated with the extension listing.
 
-## Compliance Statement
+## Consent
 
-Neon Breakout complies with the Chrome Web Store Developer Program Policies and is designed solely as an entertainment-focused browser game. The extension does not collect or process personal user data and operates entirely within the user's browser environment.
+By installing or using the extension, users acknowledge and agree to this Privacy Policy.
