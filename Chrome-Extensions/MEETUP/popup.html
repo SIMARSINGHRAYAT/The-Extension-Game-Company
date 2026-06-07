@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeting Slot Manager</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <h1>Meeting Slot Manager</h1>
+        <button id="createBtn" class="btn btn-primary" type="button">+ Create</button>
+      </header>
+
+      <section id="formCard" class="form-card hidden" aria-live="polite">
+        <h2 id="formHeading">Create Meeting</h2>
+
+        <form id="meetingForm" novalidate>
+          <div class="field">
+            <label for="title">Meeting Title</label>
+            <input id="title" name="title" type="text" placeholder="Weekly Team Sync" />
+            <small id="titleError" class="error"></small>
+          </div>
+
+          <div class="field">
+            <label for="url">Meeting URL</label>
+            <input id="url" name="url" type="url" placeholder="https://meet.google.com/..." />
+            <small id="urlError" class="error"></small>
+          </div>
+
+          <div class="field-grid">
+            <div class="field">
+              <label for="date">Date</label>
+              <input id="date" name="date" type="date" />
+              <small id="dateError" class="error"></small>
+            </div>
+
+            <div class="field">
+              <label for="time">Time</label>
+              <input id="time" name="time" type="time" />
+              <small id="timeError" class="error"></small>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="note">Note / Description</label>
+            <textarea id="note" name="note" rows="3" placeholder="Optional details..."></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button id="saveBtn" class="btn btn-primary" type="submit">Save</button>
+            <button id="cancelBtn" class="btn btn-secondary" type="button">Cancel</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="meetingList" class="meeting-list" aria-live="polite"></section>
+
+      <p id="emptyState" class="empty-state">No meetings scheduled. Click + Create to add one.</p>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
